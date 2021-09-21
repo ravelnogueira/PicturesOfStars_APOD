@@ -1,4 +1,26 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
 #img{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 505px;
+    max-height: 505px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#requisicao{
+    display: flex;
+    flex-direction: column;
+    align-content: center   ;
+}
+
+
+@media (max-width:700px){
+    #img{
+        max-width: 355px;
+        max-height: 355px;
+        border-radius: 5px;
+        align-self: center;
+    }
 }
