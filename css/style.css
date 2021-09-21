@@ -2,6 +2,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+#btn {
+    background: rgb(201, 197, 197);
+    border: solid 1px black;
+    padding: 2px;
+}
+
 #img{
     max-width: 505px;
     max-height: 505px;
@@ -15,6 +22,13 @@ h1 {
     align-content: center   ;
 }
 
+
+
+/* Media e hovers*/
+
+#btn:hover {
+    color: red;
+}
 
 @media (max-width:700px){
     #img{
